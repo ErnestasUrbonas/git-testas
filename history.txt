@@ -1,0 +1,105 @@
+    1  exit
+    2  ssh-keygen -t ed25519 -C "ernestas.urbonas@stud.vtmc.lt"
+    3  cat < ~/.ssh/id_ed25519.pub
+    4  git clone git@github.com:Mindaugas2/gallerium.git
+    5  ssh-keygen -t ed25519 -C "ernestas.urbonas@stud.vtmc.lt"
+    6  cat < ~/.ssh/id_ed25519.pub
+    7  git clone git@github.com:Mindaugas2/gallerium.git
+    8  git switch -c leonardo
+    9  git add .
+   10  git status
+   11  git commit -m "created a branch and pushed to GitHub"
+   12   git config --global user.email "ernestas.urbonas@stud.vtmc.lt"
+   13  git config --global user.name "Ernestas"
+   14  git commit -m "created a branch and pushed to GitHub"
+   15  git push origin leonardo-art
+   16  git branch -m leonardo-art
+   17  git status
+   18  git push origin leonardo-art
+   19  git switch main
+   20  git switch -c michelangelo-art
+   21  git add .
+   22  git commit -m "pushing a new branch to GitHub"
+   23  git push origin michelangelo-art
+   24  git clone git@github.com:Vaclav-Zelenkevic/spring-lessons.git
+   25  exit
+   26  git clone git@github.com:Vaclav-Zelenkevic/spring-lessons.git
+   27  exit
+   28  mvn archetype:generate
+   29  git pull
+   30  git branch
+   31  git switch main
+   32  git pull
+   33  mvn -v
+   34  mvn spring-boot:run
+   35  mvn spring-boot:run
+   36  mvn spring-boot:run
+   37  git pull
+   38  git clone https://gitexercises.fracz.com/git/exercises.git
+   39  cd exercises
+   40  git config user.name "Ernestas"
+   41  git config user.email
+   42  ./configure.sh
+   43  git start
+   44  exit
+   45  git config --global --list
+   46  nano
+   47  ls
+   48  ./sh_skriptas.sh
+   49  chmod +x sh_skriptas.sh
+   50  ./sh_skriptas.sh
+   51  ls
+   52  sh_skriptas.sh
+   53  /sh_skriptas.sh
+   54  nano sh_skriptas.sh
+   55  ./sh_skriptas.sh
+   56  git state
+   57  git check
+   58  git checkout bugfix
+   59  git init
+   60  git add .
+   61  git commit -m "mano vardas"
+   62  git add .
+   63  git commit -m "mano pavardė"
+   64  history
+   65  $ touch .gitignore
+   66  git touch .gitignore
+   67  touch .gitignore
+   68  git config --global core.excludesfile ~/.gitignore_global
+   69  git status
+   70  ignore all .log files
+   71  git add .
+   72  git commit -m "nemoku naudotis gitignore"
+   73  git remote add origin git@github.com:ErnestasUrbonas/git-testas.git
+   74  git push -u origin master
+   75  git branch grupe-numeris
+   76  git branch grupe-numeris
+   77  git switcch grupe-numeris
+   78  git switch grupe-numeris
+   79  git add .
+   80  git commit -m "grupes numeris"
+   81  git switch master
+   82  git add .
+   83  git commit -m "gimimo vieta"
+   84  git pull
+   85  git switch grupe-numeris
+   86  git merge
+   87  git merge master
+   88  git merge master
+   89  git merge master
+   90  git add .
+   91  git merge master
+   92  git commit -m "conflict"
+   93  git merge master
+   94  git switch master
+   95  git switch grupe-numeris
+   96  git push origin grupe-numeris
+   97  git switch master
+   98  git pull
+   99  git branch
+  100  git branch -d grupe-numeris
+  101  git branch
+  102  git commit -m "paskutinis commitas"
+  103  git add .
+  104  git commit -m "paskutinis commitas"
+  105  history > history.txt

@@ -1,0 +1,13 @@
+* e06b6c5 paskutinis commitas
+*   53c8702 Merge pull request #1 from ErnestasUrbonas/grupe-numeris
+|\  
+| *   0067ec6 conflict
+| |\  
+| | * 36ca8c3 gimimo vieta
+| |/  
+|/|   
+| * 91a7f88 grupes numeris
+|/  
+* a19240c nemoku naudotis gitignore
+* 9a8c681 mano pavardė
+* 4f630cf mano vardas
